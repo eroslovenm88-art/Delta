@@ -1,3 +1,15 @@
-speed glitch for mm2
+local ScreenGui = Instance.new("speed TextButto")
+local TextButton = Instance.new ("click")
+
+ScreenGui.Parent = game.CoreGui
+
+TextButton.Parent = ScreenGui
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Position = UDim2.new(0.5, -100, 0.5, -25)
+TextButton.Text = "Click Me"
+
+TextButton.MouseButton1Click:Connect(function()
+    print("Button clicked!")
+end)
 local playerName = "local player"
 local speed = "60"
