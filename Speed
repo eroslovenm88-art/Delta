@@ -1,1 +1,3 @@
 speed glitch for mm2
+local playerName = "local player"
+local speed = "60"
